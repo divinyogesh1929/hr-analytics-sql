@@ -1,4 +1,4 @@
-# 📊 HR Analytics — Employee Performance & Attrition (SQL Project)
+# 📊 HR Analytics - Employee Performance & Attrition (SQL Project)
 
 **Author:** Divin K Y | Data Analyst | Bengaluru  
 **Tools:** MySQL / SQL Server  
@@ -8,7 +8,7 @@
 
 ## 🎯 Project Objective
 
-Analyse a fictional HR dataset of 500 employees across 8 departments to answer real business questions around performance, attrition, salary benchmarking, and training effectiveness — using pure SQL.
+Analyse a fictional HR dataset of 500 employees across 8 departments to answer real business questions around performance, attrition, salary benchmarking, and training effectiveness - using pure SQL.
 
 ---
 
@@ -48,7 +48,7 @@ performance  →  review_id, emp_id, review_year, rating, projects_done, trainin
 | 11 | Attrition rate & avg tenure by department | DATEDIFF, COALESCE |
 | 12 | Bonus reward vs performance alignment | Multi-CTE, CASE WHEN |
 | 13 | Gender pay gap analysis per department | GROUP BY, MIN/MAX/AVG |
-| 14 | Training ROI — does training drive better ratings? | Bucketing, JOIN across tables |
+| 14 | Training ROI - does training drive better ratings? | Bucketing, JOIN across tables |
 | 15 | Executive HR KPI dashboard | UNION ALL |
 
 ---
@@ -59,7 +59,7 @@ performance  →  review_id, emp_id, review_year, rating, projects_done, trainin
 - Employees with **rating 4–5** completed 2x more projects than low performers
 - **Year 1 employees** show highest attrition risk across all departments
 - Training above **50 hours** correlates with 0.8 higher average performance rating
-- ~30% of high performers are **underpaid vs department average** — a retention risk
+- ~30% of high performers are **underpaid vs department average** - a retention risk
 
 ---
 
@@ -69,7 +69,7 @@ performance  →  review_id, emp_id, review_year, rating, projects_done, trainin
 -- 1. Open MySQL Workbench or SQL Server Management Studio
 -- 2. Run the full file:
 SOURCE hr_analytics_project.sql;
--- 3. Each query is clearly labelled — run individually or all at once
+-- 3. Each query is clearly labelled - run individually or all at once
 ```
 
 ---
